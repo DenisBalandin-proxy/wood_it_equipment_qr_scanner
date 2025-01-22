@@ -263,7 +263,7 @@ export default {
         }
       }
       this.hapticImpact();
-      let key = addToStorage(data.data);
+      let key = this.addToStorage(data.data);
       this.enrichValue(key);
 
       // Force to go back to the history screen if setting screen is open
