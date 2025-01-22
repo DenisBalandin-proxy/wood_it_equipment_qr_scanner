@@ -275,6 +275,7 @@ export default {
         // SOME SHIT XXX-
         if (data.data != this.last_code && this.last_code != null) {
           let qr_data = {
+            qr_type: "it_equipment",
             equipment_id: this.last_code,
             user_id: data.data
           };
